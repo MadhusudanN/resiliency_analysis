@@ -17,9 +17,9 @@ public class NullPointerExample {
     }
 
     public static void main(String[] args) {
-        Client clientA = new Client();
+//        Client clientA = new Client();
         // If we uncomment the line below, we'll see the NPE at getClientName(clientB)
-        // Client clientB = null;
+         Client clientA = null;
 
         NullPointerExample example = new NullPointerExample();
 
