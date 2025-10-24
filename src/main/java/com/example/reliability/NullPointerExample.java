@@ -6,6 +6,8 @@ public class NullPointerExample {
         // SonarQube should flag: "A 'NullPointerException' could be thrown here." (Rule S2259)
         // 'client' is not checked for null before calling getName().
         // If client.getName() returns null, .toUpperCase() will also throw an NPE.
+
+        
         return client.getName().toUpperCase();
     }
 
