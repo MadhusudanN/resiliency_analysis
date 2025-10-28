@@ -43,4 +43,4 @@ public class CircuitBreakerService {
             throw new RuntimeException("Circuit is open or call failed/slow.");
         }
     }
-}
+}    

@@ -7,7 +7,7 @@ public class NullPointerExample {
         // 'client' is not checked for null before calling getName().
         // If client.getName() returns null, .toUpperCase() will also throw an NPE.
 
-        
+
         return client.getName().toUpperCase();
     }
 
